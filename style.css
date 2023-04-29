@@ -1,0 +1,241 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PARTE SUPERIOR*/
+
+.caixa-roxa {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
+
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+    cursor: pointer;
+}
+
+.logo {
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+/*PARTE INFERIOR*/
+.caixa-azul {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-iPhone {
+    font-size: 30px;
+}
+
+.titulo-secundario {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: #0071e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.troca-cor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.azul {
+    background-color: #81A5C4;
+}
+
+.amarelo {
+    background-color: #F7DA47;
+}
+
+.branco {
+    background-color: #C1C1C1;
+}
+
+.preto {
+    background-color: #272D33;
+}
+
+.vermelho {
+    background-color: #B50012;
+}
+
+.roxo {
+    background-color: #EDE7F1;
+}
+
+.escolha-cor {
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.iphone {
+    width: 450px;
+    margin-top: 100px;
+    z-index: 99;
+}
+
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background-color: #81A5C4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 1000px);
+
+}
+
+.botao:hover{
+    opacity: 0.7;
+}
+
+.botao:active{
+    opacity: 0.4;
+}
+
+.troca-cor:hover{
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 900px){
+    ul{
+        display:none;
+    }
+
+    .logo{
+        display:none;
+    }
+
+    .caixa-roxa{
+        display:none;
+    }
+
+    .caixa-azul{
+        padding: 0;
+        margin: 0;
+        display: block;
+        padding: 3px;
+    }
+
+.titulo-iphone{
+    font-size:5px;
+    width: auto;
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    
+}
+
+.titulo-secundario{
+    font-size: 17px;
+    width: 80%;
+    position: relative;
+    margin: 5px 20px 5px 0;
+}
+
+.paragrafo{
+    font-size: 15px;
+    position: relative;
+    width: 60%;
+    top: 15px;
+}
+
+.preco{
+    font-size: 16px;
+    position: relative;
+    top:40px;
+}
+
+.botao{
+    margin-left: 5px;
+    position: relative;
+    top:40px;
+}
+
+.iphone{
+    width: 57%;
+    position: relative;
+    display: inline-block;
+    margin-top: 0;
+    left: 87px;
+    bottom: 330px;
+    
+}
+
+.circulo{
+    display: none;
+    position:absolute;
+    width: 45%;
+    height: 75%;
+    margin-left: 150px;
+    bottom:340px;
+    border-radius: 17px;
+}
+
+.cores{
+    width: 5%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+
+.escolha-cor{
+    width: 40%;
+    margin-bottom: 50px;
+    display: block;
+    position: relative;
+    top:20px;
+    left: 5px;
+}
+
+}
